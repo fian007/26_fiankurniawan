@@ -53,6 +53,14 @@
                                         <h1 class="h4 text-gray-900 mb-2">Selamat Datang Di Aplikasi Peduli Diri</h1>
                                         <p>Silahkan Masukan NIK dan Nama Lengkap Anda.</p>
                                     </div>
+                                    <?php
+                                    session_start();
+                                    if (!empty($_SESSION['success'])) {
+                                        echo $_SESSION['success'];
+                                        unset($_SESSION['success']);
+                                    }
+
+                                    ?>
                                     <form name="formku" class="user" method="post" action="proses_login.php">
                                         <div class="form-group">
                                             <input onkeyup="count()" name="nik" required type="number" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Masukan NIK Anda...">

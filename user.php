@@ -244,7 +244,7 @@ if (empty($_SESSION['nik'])) { ?>
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Aplikasi Peduli Diri 2022 By Arie Fajar</span>
+                        <span>Copyright &copy; Aplikasi Peduli Diri 2022 By Fian Kurniawan</span>
                     </div>
                 </div>
             </footer>

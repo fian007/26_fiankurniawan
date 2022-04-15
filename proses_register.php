@@ -30,9 +30,9 @@ if ($oi == 16) {
         fwrite($file, $format);
         //lalu di tutup $file nya
         fclose($file);
-
         session_start();
-        $_SESSION['success'] = '<script type="text/javascript">alert("Data Berhasil Ditambahkan,Silahkan Login")</script>';
+        $_SESSION['success'] = '<div class="alert alert-success" role="alert">
+            Data Berhasil Ditambahkan</div>';
         header('location:index.php');
     }
 } else {

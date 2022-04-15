@@ -62,13 +62,13 @@ if (empty($_SESSION['nik'])) { ?>
                 <h2 class="text-center m-0 font-weight-bold ">
                     PEMERINTAH KABUPATEN JEMBER
                     <br>
-                    DESA SEMBORO KEC.TANGGUL
+                    DESA SIDOMEKAR KEC.SEMBORO
                 </h2>
                 <h4 class="text-center m-0 font-weight-bold "> jln. PB Sudirman No. 01, Kode Pos 68157</h4>
             </center>
             <hr>
             <center>
-                <h4 class="text-center m-0 font-weight-bold "> Data Petugas </h4>
+                <h4 class="text-center m-0 font-weight-bold "> Data Perjalanan <?php echo  $_SESSION['nama_lengkap']; ?></h4>
             </center>
             <div class="card-body">
                 <div class="table-responsive">
